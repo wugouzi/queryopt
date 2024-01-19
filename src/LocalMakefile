@@ -1,0 +1,11 @@
+include src/operator/LocalMakefile
+include src/cts/LocalMakefile
+
+obj:=bin/Database.o bin/Register.o bin/Table.o bin/Attribute.o $(obj_operator)
+
+bin/admin$(EXEEXT): bin/Admin.o $(obj)
+	$(BUILDEXE)
+
+
+bin/isql$(EXEEXT): bin/isql.o $(obj) $(obj_sqlparser) $(obj_semana)
+	$(BUILDEXE)
