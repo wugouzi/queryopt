@@ -97,5 +97,5 @@ Attribute SemanticAnalysis::checkAttribute(RelationAttribute& attr){
       resolvedAttr = table.getAttribute(index);
    }
 
-   return std::move(resolvedAttr);
+   return resolvedAttr;
 }

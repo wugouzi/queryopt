@@ -94,7 +94,7 @@ SQLParser::Relation SQLParser::parseRelation(){
       rel.binding = lexer.getTokenValue();
       rel.isFullyQualified = true;
    }
-   return std::move(rel);
+   return rel;
 }
 
 SQLParser::RelationAttribute SQLParser::parseAttributeName(){
@@ -114,11 +114,11 @@ SQLParser::RelationAttribute SQLParser::parseAttributeName(){
       }
       string attribute = lexer.getTokenValue();
       RelationAttribute attr{name, attribute, true};
-      return std::move(attr);
+      return attr;
    } else {
       lexer.unget(token);
       RelationAttribute attr{string(), name, false};
-      return std::move(attr);
+      return attr;
    }
 }
 

@@ -4,13 +4,13 @@
 using namespace std;
 //---------------------------------------------------------------------------
 Selection::Selection(unique_ptr<Operator>&& input,const Register* condition)
-   : input(move(input)),condition(condition),equal(0)
+   : input(std::move(input)),condition(condition),equal(0)
    // Constructor
 {
 }
 //---------------------------------------------------------------------------
 Selection::Selection(unique_ptr<Operator>&& input,const Register* a,const Register* b)
-   : input(move(input)),condition(a),equal(b)
+   : input(std::move(input)),condition(a),equal(b)
    // Constructor
 {
 }

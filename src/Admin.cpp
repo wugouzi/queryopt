@@ -143,7 +143,7 @@ static void dumpTable(const string& dbName,const string& tableName)
    Table& table=db.getTable(tableName);
 
    std::unique_ptr<Tablescan> scan(new Tablescan(table));
-   Printer p(move(scan));
+   Printer p(std::move(scan));
    p.open();
    while (p.next());
    p.close();

@@ -3,7 +3,7 @@
 using namespace std;
 //---------------------------------------------------------------------------
 CrossProduct::CrossProduct(unique_ptr<Operator>&& left,unique_ptr<Operator>&& right)
-   : left(move(left)),right(move(right)),readLeft(true)
+   : left(std::move(left)),right(std::move(right)),readLeft(true)
    // Constructor
 {
 }

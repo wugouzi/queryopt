@@ -71,7 +71,7 @@ void Chi::LessOrEqual(const Register& a,const Register& b,Register& result)
 }
 //---------------------------------------------------------------------------
 Chi::Chi(unique_ptr<Operator>&& input,Operation op,const Register* left,const Register* right)
-   : input(move(input)),op(op),left(left),right(right)
+   : input(std::move(input)),op(op),left(left),right(right)
    // Constructor
 {
 }

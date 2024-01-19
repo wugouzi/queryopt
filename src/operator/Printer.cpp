@@ -5,13 +5,13 @@
 using namespace std;
 //---------------------------------------------------------------------------
 Printer::Printer(unique_ptr<Operator>&& input)
-   : input(move(input)),toPrint(this->input->getOutput())
+   : input(std::move(input)),toPrint(this->input->getOutput())
    // Constructor
 {
 }
 //---------------------------------------------------------------------------
 Printer::Printer(unique_ptr<Operator>&& input,const vector<const Register*>& toPrint)
-   : input(move(input)),toPrint(toPrint)
+   : input(std::move(input)),toPrint(toPrint)
    // Constructor
 {
 }

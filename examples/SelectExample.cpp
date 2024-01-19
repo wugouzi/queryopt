@@ -15,7 +15,7 @@ int main()
    const Register* name=scan->getOutput("name");
    const Register* semester=scan->getOutput("semester");
    Register two; two.setInt(2);
-   Selection select(move(scan),semester,&two);
+   Selection select(std::move(scan),semester,&two);
 
    select.open();
    while (select.next())

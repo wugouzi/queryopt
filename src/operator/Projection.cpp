@@ -3,7 +3,7 @@
 using namespace std;
 //---------------------------------------------------------------------------
 Projection::Projection(unique_ptr<Operator>&& input,const vector<const Register*>& output)
-   : input(move(input)),output(output)
+   : input(std::move(input)),output(output)
    // Constructor
 {
 }

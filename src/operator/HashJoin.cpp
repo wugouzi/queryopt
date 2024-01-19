@@ -3,7 +3,7 @@
 using namespace std;
 //---------------------------------------------------------------------------
 HashJoin::HashJoin(std::unique_ptr<Operator>&& left,std::unique_ptr<Operator>&& right,const Register* leftValue,const Register* rightValue)
-   : left(move(left)),right(move(right)),leftValue(leftValue),rightValue(rightValue)
+   : left(std::move(left)),right(std::move(right)),leftValue(leftValue),rightValue(rightValue)
    // Constructor
 {
    vector<const Register*> lr(this->left->getOutput());
@@ -34,7 +34,7 @@ bool HashJoin::next()
          values.reserve(leftRegs.size());
          for (auto iter=leftRegs.begin(),limit=leftRegs.end();iter!=limit;++iter)
             values.push_back(**iter);
-         table.insert(make_pair(*leftValue,move(values)));
+         table.insert(make_pair(*leftValue,std::move(values)));
       }
       if (table.empty()) return false;
       iter=iterLimit=table.end();
