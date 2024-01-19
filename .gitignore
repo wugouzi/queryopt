@@ -1,4 +1,6 @@
 bin/
 *~
 .DS_Store
-#*#
+.ccls-cache/
+.vscode/
+.cache/

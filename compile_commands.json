@@ -1,0 +1,398 @@
+[
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/Admin.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/Admin.d",
+   "src/Admin.cpp"
+  ],
+  "file": "src/Admin.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/Database.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/Database.d",
+   "src/Database.cpp"
+  ],
+  "file": "src/Database.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/Register.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/Register.d",
+   "src/Register.cpp"
+  ],
+  "file": "src/Register.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/Table.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/Table.d",
+   "src/Table.cpp"
+  ],
+  "file": "src/Table.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/Attribute.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/Attribute.d",
+   "src/Attribute.cpp"
+  ],
+  "file": "src/Attribute.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/operator/Chi.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/operator/Chi.d",
+   "src/operator/Chi.cpp"
+  ],
+  "file": "src/operator/Chi.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/operator/CrossProduct.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/operator/CrossProduct.d",
+   "src/operator/CrossProduct.cpp"
+  ],
+  "file": "src/operator/CrossProduct.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/operator/HashJoin.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/operator/HashJoin.d",
+   "src/operator/HashJoin.cpp"
+  ],
+  "file": "src/operator/HashJoin.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/operator/Indexscan.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/operator/Indexscan.d",
+   "src/operator/Indexscan.cpp"
+  ],
+  "file": "src/operator/Indexscan.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/operator/Operator.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/operator/Operator.d",
+   "src/operator/Operator.cpp"
+  ],
+  "file": "src/operator/Operator.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/operator/Printer.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/operator/Printer.d",
+   "src/operator/Printer.cpp"
+  ],
+  "file": "src/operator/Printer.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/operator/Projection.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/operator/Projection.d",
+   "src/operator/Projection.cpp"
+  ],
+  "file": "src/operator/Projection.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/operator/Selection.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/operator/Selection.d",
+   "src/operator/Selection.cpp"
+  ],
+  "file": "src/operator/Selection.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/operator/Tablescan.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/operator/Tablescan.d",
+   "src/operator/Tablescan.cpp"
+  ],
+  "file": "src/operator/Tablescan.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/isql.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/isql.d",
+   "src/isql.cpp"
+  ],
+  "file": "src/isql.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/cts/parser/SQLLexer.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/cts/parser/SQLLexer.d",
+   "src/cts/parser/SQLLexer.cpp"
+  ],
+  "file": "src/cts/parser/SQLLexer.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/cts/parser/SQLParser.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/cts/parser/SQLParser.d",
+   "src/cts/parser/SQLParser.cpp"
+  ],
+  "file": "src/cts/parser/SQLParser.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/cts/semana/SemanticAnalysis.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/cts/semana/SemanticAnalysis.d",
+   "src/cts/semana/SemanticAnalysis.cpp"
+  ],
+  "file": "src/cts/semana/SemanticAnalysis.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/examples/ScanExample.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/examples/ScanExample.d",
+   "examples/ScanExample.cpp"
+  ],
+  "file": "examples/ScanExample.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/examples/SelectExample.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/examples/SelectExample.d",
+   "examples/SelectExample.cpp"
+  ],
+  "file": "examples/SelectExample.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/examples/JoinExample.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/examples/JoinExample.d",
+   "examples/JoinExample.cpp"
+  ],
+  "file": "examples/JoinExample.cpp"
+ },
+ {
+  "directory": "/Users/wu/miscellaneous/courses/query optimization/tinydb 2",
+  "arguments": [
+   "/usr/bin/g++",
+   "-obin/examples/ChiExample.o",
+   "-c",
+   "-g",
+   "-std=c++0x",
+   "-Wall",
+   "-Wextra",
+   "-Isrc",
+   "-MD",
+   "-MF",
+   "bin/examples/ChiExample.d",
+   "examples/ChiExample.cpp"
+  ],
+  "file": "examples/ChiExample.cpp"
+ }
+]
